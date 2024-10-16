@@ -2,11 +2,15 @@
 
 A **content delivery network (CDN)** is a geographically distributed group of servers that work together to provide fast delivery of internet content. Typically, static files such as HTML, CSS, JavaScript, photos, and videos are served from a CDN to enhance the performance of websites and applications.
 
+![cdn-map](cdn-map.png)
+
 ## Why Use a CDN?
 
 A CDN increases **content availability**, provides **redundancy**, and reduces **bandwidth costs**. It also improves security by serving cached content. Performance is significantly improved as users receive content from servers located closer to them, reducing the load on origin servers.
 
 ## How Does a CDN Work?
+
+![cdn](cdn.png)
 
 In a CDN setup, the **origin server** contains the original content, while **edge servers** are distributed across various global locations. To reduce latency, a CDN caches the website's content at these edge locations. When a user requests content, they receive it from the nearest edge server rather than the distant origin server, improving speed and reducing the load on the origin.
 
